@@ -1,0 +1,19 @@
+{
+  "name": "orgee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jaye0410/orgee.git"
+  },
+  "author": "Yuichi Kamiki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaye0410/orgee/issues"
+  },
+  "homepage": "https://github.com/jaye0410/orgee#readme"
+}
