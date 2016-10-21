@@ -4,6 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+	  "watch": "webpack --watch --progress",
+	  "build": "webpack --config webpack-product.config.js --progress",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/jaye0410/orgee/issues"
   },
-  "homepage": "https://github.com/jaye0410/orgee#readme"
+  "homepage": "https://github.com/jaye0410/orgee#readme",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "webpack": "^1.13.2"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
 }
