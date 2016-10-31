@@ -1,8 +1,14 @@
+// 2016.10.31(git upgrade)
 module.exports = {
-	entry: './src/app.js',
+	//entry: './src/app.js',
+	entry: {
+    main: './src/app.js',
+    sub: './src/sub.js',
+    other: './src/other.js'
+	},
 	output: {
-		path: './dist',
-		filename: 'bundle.js'
+	  filename: '[name].bundle.js',
+	  path: './dist'
 	},
 	devtool: 'inline-source-map',
 	module: {
