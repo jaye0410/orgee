@@ -1,7 +1,7 @@
 {
-  "name": "orgee",
+  "name": "rnr",
   "version": "1.0.0",
-  "description": "",
+  "description": "React and Redux",
   "main": "app.js",
   "scripts": {
 	  "watch": "webpack --watch --progress",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/jaye0410/orgee.git"
+    "url": "git+ssh://git@github.com/jaye0410/rnr.git"
   },
   "author": "Yuichi Kamiki",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jaye0410/orgee/issues"
+    "url": "https://github.com/jaye0410/rnr/issues"
   },
-  "homepage": "https://github.com/jaye0410/orgee#readme",
+  "homepage": "https://github.com/jaye0410/rnr#readme",
   "devDependencies": {
     "babel-core": "^6.17.0",
     "babel-loader": "^6.2.5",
