@@ -7,7 +7,7 @@ import Counter from './components/Counter';
 
 const app = express();
 
-app.use(express.static('public'))
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
 	res.redirect('./testindex.html');
