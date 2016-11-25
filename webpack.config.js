@@ -2,13 +2,13 @@
 module.exports = {
 	//entry: './src/app.js',
 	entry: {
-    main: './src/app.js',
-    test: './test/test.js',
+    app: './src/app.js',
+    //test: './test/test.js',
     //other: './src/other.js'
 	},
 	output: {
 	  filename: '[name].bundle.js',
-	  path: './dist'
+	  path: './public'
 	},
 	devtool: 'inline-source-map',
 	module: {

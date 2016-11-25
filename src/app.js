@@ -1,10 +1,9 @@
-((arg) => {
-	console.log(`This is ${arg}!`);
-})('Arrow function');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-import Es5Tester from './es5/Es5Tester';
-var tester = new Es5Tester('Test!!');
+import Counter from './components/Counter';
 
-document.addEventListener('DOMContentLoaded', () => {
-	console.log(document.querySelector('#wrapper'));
-});
+ReactDOM.render(
+	<Counter />,
+	document.querySelector('#app')
+);
