@@ -3,8 +3,8 @@ module.exports = {
 	//entry: './src/app.js',
 	entry: {
     main: './src/app.js',
-    sub: './src/sub.js',
-    other: './src/other.js'
+    test: './test/test.js',
+    //other: './src/other.js'
 	},
 	output: {
 	  filename: '[name].bundle.js',
