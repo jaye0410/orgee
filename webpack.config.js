@@ -3,7 +3,7 @@ module.exports = {
 	//entry: './src/app.js',
 	entry: {
     app: './src/app.js',
-    //test: './test/test.js',
+    todo1: './src/todo1.js',
     //other: './src/other.js'
 	},
 	output: {

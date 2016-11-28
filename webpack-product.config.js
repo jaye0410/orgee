@@ -3,6 +3,7 @@ var webpack = require('webpack');
 module.exports = {
 	entry: {
     app: './src/app.js',
+    todo: './src/todo.js',
     //other: './src/other.js'
 	},
 	output: {
