@@ -4,7 +4,6 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 
 import reducer from './todo1/reducers';
-import { addTodoAction } from './todo1/actions';
 import Todo from './todo1/components/presentations/Todo';
 
 // この処理により、storeにreducerが登録される

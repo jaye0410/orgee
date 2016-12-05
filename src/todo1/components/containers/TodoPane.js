@@ -7,8 +7,6 @@ const mapStateToProps = (state) => {
 	};
 };
 
-const TodoPane = connect(
-	mapStateToProps
-)(TodoUl);
+const TodoPane = connect(mapStateToProps)(TodoUl);
 
 export default TodoPane;

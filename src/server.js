@@ -12,6 +12,10 @@ app.get('/', (req, res) => {
 	res.redirect('./testindex.html');
 });
 
+app.get('/todo', (req, res) => {
+	res.redirect('./todo.html');
+});
+
 app.get('/todo1', (req, res) => {
 	res.redirect('./todo1.html');
 });
