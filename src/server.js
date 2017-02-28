@@ -1,35 +1,22 @@
 import express from 'express';
 
-//import React from 'react';
-//import ReactDOMServer from 'react-dom/server';
-
-//import Counter from './components/Counter';
+const URL_LIST = [
+	'/hello',
+	'/hello2',
+	'/helloWithStyle',
+	'/helloWithEvent',
+	'/test',
+	'/todo'
+];
 
 const app = express();
 app.use(express.static('public'));
 
-app.get('/', (req, res) => {
-	res.redirect('./hello.html');
-});
-
-app.get('/hello2', (req, res) => {
-	res.redirect('./hello2.html');
-});
-
-app.get('/helloWithStyle', (req, res) => {
-	res.redirect('./helloWithStyle.html');
-});
-
-app.get('/helloWithEvent', (req, res) => {
-	res.redirect('./helloWithEvent.html');
-});
-
-app.get('/test', (req, res) => {
-	res.redirect('./testindex.html');
-});
-
-app.get('/todo', (req, res) => {
-	res.redirect('./todo.html');
+// Router
+URL_LIST.forEach((url) => {
+	app.get(url, (req, res) => {
+		res.redirect(`.${url}.html`);
+	});
 });
 
 
