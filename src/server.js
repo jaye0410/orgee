@@ -9,6 +9,22 @@ const app = express();
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
+	res.redirect('./hello.html');
+});
+
+app.get('/hello2', (req, res) => {
+	res.redirect('./hello2.html');
+});
+
+app.get('/helloWithStyle', (req, res) => {
+	res.redirect('./helloWithStyle.html');
+});
+
+app.get('/helloWithEvent', (req, res) => {
+	res.redirect('./helloWithEvent.html');
+});
+
+app.get('/test', (req, res) => {
 	res.redirect('./testindex.html');
 });
 

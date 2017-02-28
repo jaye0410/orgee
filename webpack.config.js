@@ -2,13 +2,17 @@
 module.exports = {
 	//entry: './src/app.js',
 	entry: {
+		hello: './src/hello.js',
+		hello2: './src/hello2.js',
+		helloWithStyle: './src/helloWithStyle.js',
+		helloWithEvent: './src/helloWithEvent.js',
     app: './src/app.js',
     todo: './src/todo.js',
     //other: './src/other.js'
 	},
 	output: {
 	  filename: '[name].bundle.js',
-	  path: './public'
+	  path: './public/js'
 	},
 	devtool: 'inline-source-map',
 	module: {
