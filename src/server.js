@@ -16,9 +16,6 @@ app.get('/todo', (req, res) => {
 	res.redirect('./todo.html');
 });
 
-app.get('/todo1', (req, res) => {
-	res.redirect('./todo1.html');
-});
 
 app.listen(3000, () => {
 	console.log('Server listening port 3000');
