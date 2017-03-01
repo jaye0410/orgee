@@ -1,15 +1,19 @@
 var webpack = require('webpack');
 
+const entries = {
+	hello: './src/hello.js',
+	hello2: './src/hello2.js',
+	helloWithStyle: './src/helloWithStyle.js',
+	helloWithEvent: './src/helloWithEvent.js',
+  app: './src/app.js',
+  todo: './src/todo.js',
+};
+
 module.exports = {
-	entry: {
-		hello: './src/hello.js',
-    app: './src/app.js',
-    todo: './src/todo.js',
-    //other: './src/other.js'
-	},
+	entry: entries,
 	output: {
 	  filename: '[name].bundle.js',
-	  path: './public'
+	  path: './public/js'
 	},
 	devtool: 'inline-source-map',
 	module: {
